@@ -527,3 +527,23 @@ body.has-sticky footer {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
+.flag {
+  background: #fff7ed;
+  border: 1px solid #fed7aa;
+  border-radius: var(--radius);
+  padding: 0.85rem 1rem;
+  margin: 1rem 0;
+  color: #9a3412;
+  font-size: 0.92rem;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  line-height: 1.5;
+}
+.flag strong { color: #7c2d12; }
+
+.two-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  align-items: center;
+}
